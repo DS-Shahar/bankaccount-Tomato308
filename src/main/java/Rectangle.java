@@ -54,21 +54,8 @@ public class Rectangle
 	
 	public void draw()
 	{
-		for(int i= 0; i< this.length; i++)
-		{
-		  System.out.println("|");
-		for(int i3= 0; i3< this.width; i3++)
-		{
-		  System.out.println("-");
-		}
-		for (int i1= 0; i1< this.length; i1++)
-		{
-		  System.out.println("|");
-		}
-		for (int i2= 0; i2< this.width; i2++)
-		{
-		  System.out.println("|");
-		}
-	   }
+		for (int i = 0; i < this.length; i++) {
+           		for (int j = 0; j < this.width; j++) {
+                		System.out.print("*");
 	}
 }
