@@ -1,0 +1,22 @@
+public class Main
+{
+	public static void main(String[] args) 
+	{
+		Rectangle rec1 = new Rectangle (3,4);
+		Rectangle rec2 = new Rectangle (6,4);
+		rec1.doubleRec();
+		System.out.println("Length of first rectangle is:" + rec1.getLength());
+		
+		System.out.println("Width of first rectangle is:" + rec1.getWidth());
+		
+		System.out.println("Area of first rectangle is:" + rec1.calcArea());
+		
+		System.out.println("Area of second rectangle is:" + rec2.calcArea());
+		
+		System.out.println("Perimeter of first rectangle is:" + rec1. calcPerimeter());
+		
+		System.out.println("Perimeter of second rectangle is:" + rec2. calcPerimeter());
+		
+		rec2.draw();
+	}
+}
