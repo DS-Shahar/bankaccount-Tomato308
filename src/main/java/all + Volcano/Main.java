@@ -40,14 +40,14 @@ public class Main
 	Volcano Kili = new Volcano ("Kilimanjaro", 5);
 	
 	Kili.add(2200);
+	   
+	int random;
 	
-	Fuji.add(5500);
-	Fuji.add(3299);
-	Fuji.add(1004);
-	Fuji.add(3334);
-	Fuji.add(7677);
-	Fuji.add(3200);
-	Fuji.add(8700);
+	for (int i = 0; i< 7; i++)
+	{
+	  	random = (int)(Math.random()*(2001));
+		Fuji.add(random);
+	}
 	
 	Fuji.fix(4, 1700);
 
